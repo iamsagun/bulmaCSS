@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enterprise Fiber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <!--Navbar Start-->
+    <nav class="navbar is-fixed-top box-shadow-y">
+        <div class="navbar-brand ">
+            <a role="button" class="navbar-burger toggler" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+            <a href="#" class="navbar-item has-text-weight-bold has-text-black ">
+
+                Enterprise Fiber
+            </a>
+
+            <a role="button" class="navbar-burger nav-toggler" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu ">
+
+            <div class="navbar-end">
+                <a href="#" class="navbar-item">
+                    Branch
+                </a>
+                <a href="#" class="navbar-item">
+                    POP
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link is-arrowless">
+                        Node
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Parent Node
+                        </a>
+                        <a class="navbar-item">
+                            Distribution Node
+                        </a>
+
+                    </div>
+                </div>
+                <a href="#" class="navbar-item">
+                    Customer
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="#" class="navbar-link">
+                        <i class="fas fa-user icon"></i>
+                        User
+                    </a>
+                    <div class="navbar-dropdown is-right">
+                        <a href="#" class="navbar-item">Profile</a>
+                        <a href="#" class="navbar-item">Settings</a>
+                        <hr class="navbar-divider" />
+                        <a href="#" class="navbar-item">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Main body-->
+    <div class="columns is-variable is-0">
+        <!--SideMenu Bar-->
+        <div>
+            <div class="menu-container px-1 has-background-white">
+                <div class="menu-wrapper py-1">
+                    <aside class="menu">
+                        <ul class="menu-list">
+                            <li>
+
+                                <p class="control has-icons-left">
+                                    <input class="input is-small" type="text" placeholder="search">
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-search" aria-hidden="true"></i>
+                                    </span>
+                                </p>
+
+                            </li>
+                            <li>
+                                <a href="#" class="has-text-black">
+                                    <i class="fas fa-tachometer-alt icon"></i>
+                                    Dashboard</a>
+                            </li>
+                            <hr class="navbar-divider">
+                            <li>
+                                <a href="#" class="has-text-black">
+                                    <i class="fas fa-cogs icon"></i>
+                                    Task Report <i class="fas fa-chevron-down icon right"></i></a>
+                                <ul>
+                                    <li>
+                                        <div href="#">item 1</div>
+                                    </li>
+                                    <li>
+                                        <div href="#">item 2</div>
+                                    </li>
+                                    <li>
+                                        <div href="#">item 3</div>
+                                    </li>
+                                    <li>
+                                        <div href="#">item 4</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class=" btn has-text-black">
+                                    <i class="fas fa-users-cog icon"></i>
+                                    Logistics Report</a>
+                            </li>
+                            
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <!--Page Content Blcok-->
+        <div class="column is-10-desktop is-offset-2-desktop is-9-tablet is-offset-3-tablet is-12-mobile">
+            <div class="p-1">
+                <!--Breadcrumb-->
+                <div class="columns is-variable is-desktop">
+                    <div class="column">
+                        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+                            <ul>
+                                <li><a href="#">Bulma</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Components</a></li>
+                                <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--Card Details-->
+                <div class="columns  is-variable is-desktop">
+                    <div class="column">
+                        <div class="card has-background-primary has-text-white">
+                            <div class="card-header">
+                                <div class="card-header-title has-text-white is-uppercase">
+                                    Number of Branch(IV)
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="is-size-3">17</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card has-background-warning has-text-black">
+                            <div class="card-header">
+                                <div class="card-header-title has-text-black is-uppercase">
+                                    Number of POP
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="is-size-3">110</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card has-background-info has-text-white">
+                            <div class="card-header">
+                                <div class="card-header-title has-text-white is-uppercase">
+                                    Free Node
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="is-size-3">45 %</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card has-background-danger has-text-white">
+                            <div class="card-header">
+                                <div class="card-header-title has-text-white is-uppercase">
+                                    Number of Customer</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="is-size-3">3650</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Daily Summery-->
+                <div class="columns is-variable is-desktop">
+                    <div class="column">
+                        <nav class="panel">
+                            <p class="panel-heading">
+                                Daily Summery
+                            </p>
+                            <div class="table-container">
+                                <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>SN</th>
+                                            <th>Active Fiber Tasks</th>
+                                            <th>Completed</th>
+                                            <th>PEnding</th>
+                                            <th>New TT</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Troubbleshoot</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Shifting</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Miscellaneous</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!--Branchwise Pending Report-->
+                <div class="columns is-variable is-desktop">
+                    <div class="column">
+                        <nav class="panel">
+                            <p class="panel-heading">
+                                Branchwise Pending Report
+                            </p>
+                            <div class="table-container">
+                                <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                                    <thead>
+                                        <tr>
+                                            <th>Tasks</th>
+                                            <th>BLTR</th>
+                                            <th>NBNS</th>
+                                            <th>MBHN</th>
+                                            <th>KLMT</th>
+                                            <th>BPTL</th>
+                                            <th>KSNT</th>
+                                            <th>BDHA</th>
+                                            <th>PPSI</th>
+                                            <th>BBRI</th>
+                                            <th>BALJ</th>
+                                            <th>STPL</th>
+                                            <th>STGL</th>
+                                            <th>KRTP</th>
+                                            <th>IMDL</th>
+                                            <th>GTHR</th>
+                                            <th>SLGR</th>
+                                            <th>DHTI</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <th>Troubbleshoot</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shifting</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Miscellaneous</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!--Branchwise Completed Report-->
+                <div class="columns is-variable is-desktop">
+                    <div class="column">
+                        <nav class="panel">
+                            <p class="panel-heading">
+                                Branchwise Completed Report
+                            </p>
+                            <div class="table-container">
+                                <table class="table is-bordered is-striped is-narrow is-hoverable">
+                                    <thead>
+                                        <tr>
+                                            <th>Tasks</th>
+                                            <th>BLTR</th>
+                                            <th>NBNS</th>
+                                            <th>MBHN</th>
+                                            <th>KLMT</th>
+                                            <th>BPTL</th>
+                                            <th>KSNT</th>
+                                            <th>BDHA</th>
+                                            <th>PPSI</th>
+                                            <th>BBRI</th>
+                                            <th>BALJ</th>
+                                            <th>STPL</th>
+                                            <th>STGL</th>
+                                            <th>KRTP</th>
+                                            <th>IMDL</th>
+                                            <th>GTHR</th>
+                                            <th>SLGR</th>
+                                            <th>DHTI</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <th>Troubbleshoot</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shifting</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Miscellaneous</th>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tbody>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Start-->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Enterprise Fiber @2019
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script src="js/myscript.js"></script>
+
+</body>
+
+</html>
